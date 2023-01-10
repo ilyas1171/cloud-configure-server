@@ -1,4 +1,6 @@
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
@@ -17,3 +19,7 @@ microservice:
     endpoints:
       endpoint:
         uri:http://localhost:8083/api/order/orders
+  inventory-service:
+    endpoints:
+      endpoint:
+        uri:http://localhost:8198/api/inventory/createInventory
