@@ -14,12 +14,12 @@ microservice:
   product-service:
     endpoints:
       endpoint:
-        uri:http://localhost:8081/api/product/**
+        uri:http://PRODUCT-SERVICE/api/product/**
   order-service:
     endpoints:
       endpoint:
-        uri:http://localhost:8083/api/order/**
+        uri:http://ORDER-SERVICE/api/order/**
   inventory-service:
     endpoints:
       endpoint:
-        uri:http://localhost:8198/api/inventory/**
+        uri:http://INVENTORY-SERVICE/api/inventory/**
