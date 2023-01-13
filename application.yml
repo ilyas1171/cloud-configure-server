@@ -10,16 +10,4 @@ eureka:
     hostname: localhost 
     
     
-microservice:
-  product-service:
-    endpoints:
-      endpoint:
-        uri:http://localhost:8081/api/product/**
-  order-service:
-    endpoints:
-      endpoint:
-        uri:http://localhost:8087/api/order/**
-  inventory-service:
-    endpoints:
-      endpoint:
-        uri:http://localhost:8082/api/inventory/**
+
